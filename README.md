@@ -1,7 +1,3 @@
-# practice
+# Practice Repository
 
-This is the first commit
-This is the secomd commit
-this is third commit
-this is fourth commit
-
+#### Used for demonstration of git version control system in meetups
