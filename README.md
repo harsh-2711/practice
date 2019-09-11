@@ -1,5 +1,5 @@
 # Practice Repository
 
-#### Used for demonstration of git version control system in meetups
+#### Used for demonstration of git VCS in meetups
 
 Mainly contains greedy, dp and graph algorithms written in C++
