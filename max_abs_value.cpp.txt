@@ -1,0 +1,31 @@
+// C++ implementation of the approach 
+#include <bits/stdc++.h> 
+using namespace std; 
+
+// Function to return the maximum 
+// absolute difference between 
+// any two elements of the array 
+int maxAbsDiff(int arr[], int n) 
+{ 
+
+	// To store the minimum and the maximum 
+	// elements from the array 
+	int minEle = arr[0]; 
+	int maxEle = arr[0]; 
+	for (int i = 1; i < n; i++) { 
+		minEle = min(minEle, arr[i]); 
+		maxEle = max(maxEle, arr[i]); 
+	} 
+
+	return (maxEle - minEle); 
+} 
+
+// Driver code 
+int main() 
+{ 
+	int arr[] = { 2, 1, 5, 3 }; 
+	int n = sizeof(arr) / sizeof(arr[0]); 
+	cout << maxAbsDiff(arr, n); 
+
+	return 0; 
+} 
